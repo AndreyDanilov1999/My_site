@@ -1,0 +1,105 @@
+.navbar {
+    background-color: #2c2b2b;
+    overflow: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    list-style: none;
+
+}
+
+.container {
+    float: right;
+    height: 100%;
+}
+
+.container a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    list-style-type: none;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+  }
+  
+  .container a:hover {
+    background-color: rgb(121, 80, 67);
+    border-bottom: 3px solid red;
+  }
+  
+.container a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 18px;
+    color: white;
+}
+
+.container-brand {
+    float: left;
+    display: block;
+    color: rgba(255, 255, 255, 0.925);
+    padding: 5px 30px;
+    font-size: 15px; 
+    text-align: center; 
+}
+
+.text-style {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+}
+
+body {
+    margin: 0px;
+
+}
+
+h1 {
+    text-align: left;
+}
+
+.main-body {
+    padding: 10px 400px;
+}
+
+html {
+    background-color:rgba(182, 174, 165, 0.884);
+}
+
+.leftphoto{
+    width: 40%;
+    float:left;
+    margin: 4px 10px 2px 0px;
+    border:1px solid #CCC;
+    padding:6px;
+    }
+
+.rightphoto{
+    width: 30%;
+    float:right;
+    margin: 4px 10px 2px 0px;
+    border:1px solid #CCC;
+    padding:6px;
+    }
+
+.icon-contact {
+    width: 5%;
+    float:left;
+    margin: 4px 10px 2px 0px;
+    padding:6px;
+
+}
+
+.text-contact {
+    font-size: 25px;
+    display: table;
+    float: left;
+
+}
